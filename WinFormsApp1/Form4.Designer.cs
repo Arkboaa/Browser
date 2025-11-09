@@ -73,6 +73,7 @@
             button3 = new Button();
             button2 = new Button();
             panel2 = new Panel();
+            sahibindenToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
@@ -166,14 +167,14 @@
             youtubeToolStripMenuItem.ForeColor = Color.White;
             youtubeToolStripMenuItem.Image = Resource1.YouTube;
             youtubeToolStripMenuItem.Name = "youtubeToolStripMenuItem";
-            youtubeToolStripMenuItem.Size = new Size(149, 26);
+            youtubeToolStripMenuItem.Size = new Size(224, 26);
             youtubeToolStripMenuItem.Text = "Youtube";
             youtubeToolStripMenuItem.Click += youtubeToolStripMenuItem_Click;
             // 
             // dizigomToolStripMenuItem
             // 
             dizigomToolStripMenuItem.Name = "dizigomToolStripMenuItem";
-            dizigomToolStripMenuItem.Size = new Size(149, 26);
+            dizigomToolStripMenuItem.Size = new Size(224, 26);
             dizigomToolStripMenuItem.Text = "Dizigom";
             dizigomToolStripMenuItem.Click += dizigomToolStripMenuItem_Click;
             // 
@@ -183,7 +184,7 @@
             twitchToolStripMenuItem.ForeColor = Color.FromArgb(255, 192, 255);
             twitchToolStripMenuItem.Image = Resource1.Twitch;
             twitchToolStripMenuItem.Name = "twitchToolStripMenuItem";
-            twitchToolStripMenuItem.Size = new Size(149, 26);
+            twitchToolStripMenuItem.Size = new Size(224, 26);
             twitchToolStripMenuItem.Text = "Twitch";
             twitchToolStripMenuItem.Click += twitchToolStripMenuItem_Click;
             // 
@@ -192,7 +193,7 @@
             kickToolStripMenuItem.BackColor = Color.Green;
             kickToolStripMenuItem.ForeColor = Color.FromArgb(128, 255, 128);
             kickToolStripMenuItem.Name = "kickToolStripMenuItem";
-            kickToolStripMenuItem.Size = new Size(149, 26);
+            kickToolStripMenuItem.Size = new Size(224, 26);
             kickToolStripMenuItem.Text = "Kick";
             kickToolStripMenuItem.Click += kickToolStripMenuItem_Click;
             // 
@@ -210,7 +211,7 @@
             spotifyToolStripMenuItem.ForeColor = Color.White;
             spotifyToolStripMenuItem.Image = Resource1.Spotify;
             spotifyToolStripMenuItem.Name = "spotifyToolStripMenuItem";
-            spotifyToolStripMenuItem.Size = new Size(139, 26);
+            spotifyToolStripMenuItem.Size = new Size(224, 26);
             spotifyToolStripMenuItem.Text = "Spotify";
             spotifyToolStripMenuItem.Click += spotifyToolStripMenuItem_Click;
             // 
@@ -228,7 +229,7 @@
             steamToolStripMenuItem.ForeColor = Color.White;
             steamToolStripMenuItem.Image = Resource1.Steam;
             steamToolStripMenuItem.Name = "steamToolStripMenuItem";
-            steamToolStripMenuItem.Size = new Size(134, 26);
+            steamToolStripMenuItem.Size = new Size(224, 26);
             steamToolStripMenuItem.Text = "Steam";
             steamToolStripMenuItem.Click += steamToolStripMenuItem_Click;
             // 
@@ -238,13 +239,13 @@
             epicToolStripMenuItem.ForeColor = Color.White;
             epicToolStripMenuItem.Image = Resource1.Epic_Games;
             epicToolStripMenuItem.Name = "epicToolStripMenuItem";
-            epicToolStripMenuItem.Size = new Size(134, 26);
+            epicToolStripMenuItem.Size = new Size(224, 26);
             epicToolStripMenuItem.Text = "Epic";
             epicToolStripMenuItem.Click += epicToolStripMenuItem_Click;
             // 
             // alışverişToolStripMenuItem
             // 
-            alışverişToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { amazonToolStripMenuItem });
+            alışverişToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { amazonToolStripMenuItem, sahibindenToolStripMenuItem });
             alışverişToolStripMenuItem.ForeColor = Color.FromArgb(64, 0, 64);
             alışverişToolStripMenuItem.Name = "alışverişToolStripMenuItem";
             alışverişToolStripMenuItem.Size = new Size(77, 39);
@@ -254,7 +255,7 @@
             // 
             amazonToolStripMenuItem.Image = Resource1.Amazon;
             amazonToolStripMenuItem.Name = "amazonToolStripMenuItem";
-            amazonToolStripMenuItem.Size = new Size(147, 26);
+            amazonToolStripMenuItem.Size = new Size(224, 26);
             amazonToolStripMenuItem.Text = "Amazon";
             amazonToolStripMenuItem.Click += amazonToolStripMenuItem_Click;
             // 
@@ -351,7 +352,7 @@
             trendyolGoToolStripMenuItem.ForeColor = Color.Black;
             trendyolGoToolStripMenuItem.Image = Resource1.T_Lowercase;
             trendyolGoToolStripMenuItem.Name = "trendyolGoToolStripMenuItem";
-            trendyolGoToolStripMenuItem.Size = new Size(185, 26);
+            trendyolGoToolStripMenuItem.Size = new Size(224, 26);
             trendyolGoToolStripMenuItem.Text = "Trendyol Go";
             trendyolGoToolStripMenuItem.Click += trendyolGoToolStripMenuItem_Click;
             // 
@@ -361,7 +362,7 @@
             yemeksepetiToolStripMenuItem.ForeColor = Color.Black;
             yemeksepetiToolStripMenuItem.Image = Resource1.Y;
             yemeksepetiToolStripMenuItem.Name = "yemeksepetiToolStripMenuItem";
-            yemeksepetiToolStripMenuItem.Size = new Size(185, 26);
+            yemeksepetiToolStripMenuItem.Size = new Size(224, 26);
             yemeksepetiToolStripMenuItem.Text = "Yemeksepeti";
             yemeksepetiToolStripMenuItem.Click += yemeksepetiToolStripMenuItem_Click;
             // 
@@ -371,7 +372,7 @@
             getirToolStripMenuItem.ForeColor = Color.White;
             getirToolStripMenuItem.Image = Resource1.Goodreads;
             getirToolStripMenuItem.Name = "getirToolStripMenuItem";
-            getirToolStripMenuItem.Size = new Size(185, 26);
+            getirToolStripMenuItem.Size = new Size(224, 26);
             getirToolStripMenuItem.Text = "Getir";
             getirToolStripMenuItem.Click += getirToolStripMenuItem_Click;
             // 
@@ -381,7 +382,7 @@
             migrosYemekToolStripMenuItem.ForeColor = Color.White;
             migrosYemekToolStripMenuItem.Image = Resource1.Marker_M;
             migrosYemekToolStripMenuItem.Name = "migrosYemekToolStripMenuItem";
-            migrosYemekToolStripMenuItem.Size = new Size(185, 26);
+            migrosYemekToolStripMenuItem.Size = new Size(224, 26);
             migrosYemekToolStripMenuItem.Text = "Migros Yemek";
             migrosYemekToolStripMenuItem.Click += migrosYemekToolStripMenuItem_Click;
             // 
@@ -398,7 +399,7 @@
             eDevletToolStripMenuItem.ForeColor = Color.White;
             eDevletToolStripMenuItem.Image = (Image)resources.GetObject("eDevletToolStripMenuItem.Image");
             eDevletToolStripMenuItem.Name = "eDevletToolStripMenuItem";
-            eDevletToolStripMenuItem.Size = new Size(154, 26);
+            eDevletToolStripMenuItem.Size = new Size(224, 26);
             eDevletToolStripMenuItem.Text = "E-Devlet";
             eDevletToolStripMenuItem.Click += eDevletToolStripMenuItem_Click;
             // 
@@ -407,7 +408,7 @@
             meüOBSToolStripMenuItem.BackColor = Color.Wheat;
             meüOBSToolStripMenuItem.Image = (Image)resources.GetObject("meüOBSToolStripMenuItem.Image");
             meüOBSToolStripMenuItem.Name = "meüOBSToolStripMenuItem";
-            meüOBSToolStripMenuItem.Size = new Size(154, 26);
+            meüOBSToolStripMenuItem.Size = new Size(224, 26);
             meüOBSToolStripMenuItem.Text = "Meü OBS";
             meüOBSToolStripMenuItem.Click += meüOBSToolStripMenuItem_Click;
             // 
@@ -417,7 +418,7 @@
             meruzemToolStripMenuItem.ForeColor = Color.White;
             meruzemToolStripMenuItem.Image = Resource1.Video_Call;
             meruzemToolStripMenuItem.Name = "meruzemToolStripMenuItem";
-            meruzemToolStripMenuItem.Size = new Size(154, 26);
+            meruzemToolStripMenuItem.Size = new Size(224, 26);
             meruzemToolStripMenuItem.Text = "Meruzem";
             meruzemToolStripMenuItem.Click += meruzemToolStripMenuItem_Click;
             // 
@@ -514,6 +515,13 @@
             panel2.Size = new Size(800, 362);
             panel2.TabIndex = 6;
             // 
+            // sahibindenToolStripMenuItem
+            // 
+            sahibindenToolStripMenuItem.Name = "sahibindenToolStripMenuItem";
+            sahibindenToolStripMenuItem.Size = new Size(224, 26);
+            sahibindenToolStripMenuItem.Text = "Sahibinden";
+            sahibindenToolStripMenuItem.Click += sahibindenToolStripMenuItem_Click;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -585,5 +593,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private ToolStripMenuItem sahibindenToolStripMenuItem;
     }
 }
