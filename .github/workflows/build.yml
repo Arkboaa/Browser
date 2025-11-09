@@ -19,9 +19,6 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Debug - list files
-        run: dir
-
       - name: Restore dependencies
         run: dotnet restore WinFormsApp1/WinFormsApp1.csproj
 
