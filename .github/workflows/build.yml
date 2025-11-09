@@ -3,8 +3,8 @@ name: Build and Release WinForms App (.NET 8)
 on:
   push:
     tags:
-      - 'v*'   # v1.0 gibi bir tag push edince çalışır (örnek: v1.0, v1.1 vs.)
-  workflow_dispatch: # manuel çalıştırma için
+      - 'v*'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,16 +19,19 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
+      - name: Debug - list files
+        run: dir
+
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore WinFormsApp1/WinFormsApp1.csproj
 
       - name: Build project
-        run: dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeAllContentForSelfExtract=true /p:WindowsAppSDKSelfContained=true /p:EnableWindowsTargeting=true
+        run: dotnet publish WinFormsApp1/WinFormsApp1.csproj -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeAllContentForSelfExtract=true /p:WindowsAppSDKSelfContained=true /p:EnableWindowsTargeting=true
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: BrowserApp
+          name: WinFormsApp1
           path: |
             **/bin/Release/**/publish/
 
