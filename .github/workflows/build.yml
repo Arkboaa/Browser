@@ -6,6 +6,9 @@ on:
       - 'v*'
   workflow_dispatch:
 
+permissions:
+  contents: write  # GITHUB_TOKEN'ın release oluşturma izni için GEREKLİ
+
 jobs:
   build:
     runs-on: windows-latest
@@ -37,5 +40,6 @@ jobs:
         with:
           files: |
             **/bin/Release/**/publish/**
+          overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
