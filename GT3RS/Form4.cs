@@ -5,7 +5,7 @@ using System.Linq;
 using System.Windows.Forms;
 using Microsoft.Web.WebView2.Core;
 
-namespace WinFormsApp1
+namespace GT3RS
 {
     public partial class Form4 : Form
     {

@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using OpenQA.Selenium.DevTools.V140.FedCm;
 
-namespace WinFormsApp1
+namespace GT3RS
 {
 
     public partial class Form1 : Form

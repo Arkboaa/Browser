@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace GT3RS
 {
     partial class Form4
     {

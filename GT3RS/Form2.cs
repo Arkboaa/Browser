@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
-namespace WinFormsApp1
+namespace GT3RS
 {
 
     public partial class Form2 : Form

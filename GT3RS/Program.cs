@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
-namespace WinFormsApp1
+namespace GT3RS
 {
     internal static class Program
     {
