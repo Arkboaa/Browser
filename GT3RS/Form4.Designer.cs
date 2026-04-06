@@ -119,7 +119,7 @@
             // instagramToolStripMenuItem
             // 
             instagramToolStripMenuItem.BackColor = Color.RosyBrown;
-            instagramToolStripMenuItem.Image = Resource1.Instagram;
+            instagramToolStripMenuItem.Image = GT3RS.Resource1.Instagram;
             instagramToolStripMenuItem.Name = "instagramToolStripMenuItem";
             instagramToolStripMenuItem.Size = new Size(224, 26);
             instagramToolStripMenuItem.Text = "Instagram";
@@ -137,7 +137,7 @@
             // tiktokToolStripMenuItem
             // 
             tiktokToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 192);
-            tiktokToolStripMenuItem.Image = Resource1.TikTok;
+            tiktokToolStripMenuItem.Image = GT3RS.Resource1.TikTok;
             tiktokToolStripMenuItem.Name = "tiktokToolStripMenuItem";
             tiktokToolStripMenuItem.Size = new Size(224, 26);
             tiktokToolStripMenuItem.Text = "Tiktok";
@@ -146,7 +146,7 @@
             // whatsAppToolStripMenuItem
             // 
             whatsAppToolStripMenuItem.BackColor = Color.Green;
-            whatsAppToolStripMenuItem.Image = Resource1.WhatsApp;
+            whatsAppToolStripMenuItem.Image = GT3RS.    Resource1.WhatsApp;
             whatsAppToolStripMenuItem.Name = "whatsAppToolStripMenuItem";
             whatsAppToolStripMenuItem.Size = new Size(224, 26);
             whatsAppToolStripMenuItem.Text = "WhatsApp";
@@ -165,7 +165,7 @@
             // 
             youtubeToolStripMenuItem.BackColor = Color.Red;
             youtubeToolStripMenuItem.ForeColor = Color.White;
-            youtubeToolStripMenuItem.Image = Resource1.YouTube;
+            youtubeToolStripMenuItem.Image = GT3RS.Resource1.YouTube;
             youtubeToolStripMenuItem.Name = "youtubeToolStripMenuItem";
             youtubeToolStripMenuItem.Size = new Size(224, 26);
             youtubeToolStripMenuItem.Text = "Youtube";
@@ -182,7 +182,7 @@
             // 
             twitchToolStripMenuItem.BackColor = Color.Purple;
             twitchToolStripMenuItem.ForeColor = Color.FromArgb(255, 192, 255);
-            twitchToolStripMenuItem.Image = Resource1.Twitch;
+            twitchToolStripMenuItem.Image = GT3RS.Resource1.Twitch;
             twitchToolStripMenuItem.Name = "twitchToolStripMenuItem";
             twitchToolStripMenuItem.Size = new Size(224, 26);
             twitchToolStripMenuItem.Text = "Twitch";
@@ -209,7 +209,7 @@
             // 
             spotifyToolStripMenuItem.BackColor = Color.DarkSeaGreen;
             spotifyToolStripMenuItem.ForeColor = Color.White;
-            spotifyToolStripMenuItem.Image = Resource1.Spotify;
+            spotifyToolStripMenuItem.Image =GT3RS.Resource1.Spotify;
             spotifyToolStripMenuItem.Name = "spotifyToolStripMenuItem";
             spotifyToolStripMenuItem.Size = new Size(224, 26);
             spotifyToolStripMenuItem.Text = "Spotify";
@@ -227,7 +227,7 @@
             // 
             steamToolStripMenuItem.BackColor = Color.RoyalBlue;
             steamToolStripMenuItem.ForeColor = Color.White;
-            steamToolStripMenuItem.Image = Resource1.Steam;
+            steamToolStripMenuItem.Image = GT3RS.Resource1.Steam;
             steamToolStripMenuItem.Name = "steamToolStripMenuItem";
             steamToolStripMenuItem.Size = new Size(224, 26);
             steamToolStripMenuItem.Text = "Steam";
@@ -237,7 +237,7 @@
             // 
             epicToolStripMenuItem.BackColor = Color.Black;
             epicToolStripMenuItem.ForeColor = Color.White;
-            epicToolStripMenuItem.Image = Resource1.Epic_Games;
+            epicToolStripMenuItem.Image = GT3RS.    Resource1.Epic_Games;
             epicToolStripMenuItem.Name = "epicToolStripMenuItem";
             epicToolStripMenuItem.Size = new Size(224, 26);
             epicToolStripMenuItem.Text = "Epic";
@@ -253,7 +253,7 @@
             // 
             // amazonToolStripMenuItem
             // 
-            amazonToolStripMenuItem.Image = Resource1.Amazon;
+            amazonToolStripMenuItem.Image = GT3RS.Resource1.Amazon;
             amazonToolStripMenuItem.Name = "amazonToolStripMenuItem";
             amazonToolStripMenuItem.Size = new Size(224, 26);
             amazonToolStripMenuItem.Text = "Amazon";
@@ -274,7 +274,7 @@
             // 
             hesaptanÇıkışYapToolStripMenuItem.BackColor = SystemColors.ButtonShadow;
             hesaptanÇıkışYapToolStripMenuItem.ForeColor = SystemColors.ButtonFace;
-            hesaptanÇıkışYapToolStripMenuItem.Image = Resource1.Profile;
+            hesaptanÇıkışYapToolStripMenuItem.Image = GT3RS.Resource1.Profile;
             hesaptanÇıkışYapToolStripMenuItem.Name = "hesaptanÇıkışYapToolStripMenuItem";
             hesaptanÇıkışYapToolStripMenuItem.Size = new Size(217, 26);
             hesaptanÇıkışYapToolStripMenuItem.Text = "Hesaptan Çıkış Yap";
@@ -284,7 +284,7 @@
             // 
             uygulamayıKapatToolStripMenuItem.BackColor = Color.Red;
             uygulamayıKapatToolStripMenuItem.ForeColor = Color.White;
-            uygulamayıKapatToolStripMenuItem.Image = Resource1.Shutdown;
+            uygulamayıKapatToolStripMenuItem.Image = GT3RS.Resource1.Shutdown;
             uygulamayıKapatToolStripMenuItem.Name = "uygulamayıKapatToolStripMenuItem";
             uygulamayıKapatToolStripMenuItem.Size = new Size(217, 26);
             uygulamayıKapatToolStripMenuItem.Text = "Uygulamayı Kapat";
@@ -305,7 +305,7 @@
             // küçültToolStripMenuItem
             // 
             küçültToolStripMenuItem.BackColor = SystemColors.ControlLight;
-            küçültToolStripMenuItem.Image = Resource1.Collapse;
+            küçültToolStripMenuItem.Image = GT3RS.Resource1.Collapse;
             küçültToolStripMenuItem.Name = "küçültToolStripMenuItem";
             küçültToolStripMenuItem.ShortcutKeyDisplayString = "F11";
             küçültToolStripMenuItem.Size = new Size(165, 26);
@@ -315,7 +315,7 @@
             // büyütToolStripMenuItem
             // 
             büyütToolStripMenuItem.BackColor = SystemColors.ControlDark;
-            büyütToolStripMenuItem.Image = Resource1.Expand;
+            büyütToolStripMenuItem.Image = GT3RS.Resource1.Expand;
             büyütToolStripMenuItem.Name = "büyütToolStripMenuItem";
             büyütToolStripMenuItem.Size = new Size(165, 26);
             büyütToolStripMenuItem.Text = "Büyüt";
@@ -324,7 +324,7 @@
             // gizleToolStripMenuItem
             // 
             gizleToolStripMenuItem.BackColor = SystemColors.ControlDarkDark;
-            gizleToolStripMenuItem.Image = Resource1.Hide;
+            gizleToolStripMenuItem.Image = GT3RS.Resource1.Hide;
             gizleToolStripMenuItem.Name = "gizleToolStripMenuItem";
             gizleToolStripMenuItem.Size = new Size(165, 26);
             gizleToolStripMenuItem.Text = "Gizle";
@@ -350,7 +350,7 @@
             // 
             trendyolGoToolStripMenuItem.BackColor = Color.OrangeRed;
             trendyolGoToolStripMenuItem.ForeColor = Color.Black;
-            trendyolGoToolStripMenuItem.Image = Resource1.T_Lowercase;
+            trendyolGoToolStripMenuItem.Image = GT3RS.Resource1.T_Lowercase;
             trendyolGoToolStripMenuItem.Name = "trendyolGoToolStripMenuItem";
             trendyolGoToolStripMenuItem.Size = new Size(224, 26);
             trendyolGoToolStripMenuItem.Text = "Trendyol Go";
@@ -360,7 +360,7 @@
             // 
             yemeksepetiToolStripMenuItem.BackColor = Color.Tomato;
             yemeksepetiToolStripMenuItem.ForeColor = Color.Black;
-            yemeksepetiToolStripMenuItem.Image = Resource1.Y;
+            yemeksepetiToolStripMenuItem.Image = GT3RS.Resource1.Y;
             yemeksepetiToolStripMenuItem.Name = "yemeksepetiToolStripMenuItem";
             yemeksepetiToolStripMenuItem.Size = new Size(224, 26);
             yemeksepetiToolStripMenuItem.Text = "Yemeksepeti";
@@ -370,7 +370,7 @@
             // 
             getirToolStripMenuItem.BackColor = Color.MediumOrchid;
             getirToolStripMenuItem.ForeColor = Color.White;
-            getirToolStripMenuItem.Image = Resource1.Goodreads;
+            getirToolStripMenuItem.Image = GT3RS.Resource1.Goodreads;
             getirToolStripMenuItem.Name = "getirToolStripMenuItem";
             getirToolStripMenuItem.Size = new Size(224, 26);
             getirToolStripMenuItem.Text = "Getir";
@@ -380,7 +380,7 @@
             // 
             migrosYemekToolStripMenuItem.BackColor = Color.FromArgb(255, 128, 0);
             migrosYemekToolStripMenuItem.ForeColor = Color.White;
-            migrosYemekToolStripMenuItem.Image = Resource1.Marker_M;
+            migrosYemekToolStripMenuItem.Image = GT3RS.Resource1.Marker_M;
             migrosYemekToolStripMenuItem.Name = "migrosYemekToolStripMenuItem";
             migrosYemekToolStripMenuItem.Size = new Size(224, 26);
             migrosYemekToolStripMenuItem.Text = "Migros Yemek";
@@ -416,7 +416,7 @@
             // 
             meruzemToolStripMenuItem.BackColor = Color.FromArgb(255, 128, 0);
             meruzemToolStripMenuItem.ForeColor = Color.White;
-            meruzemToolStripMenuItem.Image = Resource1.Video_Call;
+            meruzemToolStripMenuItem.Image = GT3RS.Resource1.Video_Call;
             meruzemToolStripMenuItem.Name = "meruzemToolStripMenuItem";
             meruzemToolStripMenuItem.Size = new Size(224, 26);
             meruzemToolStripMenuItem.Text = "Meruzem";

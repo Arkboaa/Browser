@@ -75,7 +75,7 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.BackgroundImage = Resource1.Profile;
+            pictureBox1.BackgroundImage = GT3RS.Resource1.Profile;
             pictureBox1.BackgroundImageLayout = ImageLayout.Center;
             pictureBox1.Location = new Point(87, 161);
             pictureBox1.Name = "pictureBox1";
@@ -124,7 +124,7 @@
             label7.Cursor = Cursors.Hand;
             label7.FlatStyle = FlatStyle.Flat;
             label7.Font = new Font("Impact", 15F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            label7.Image = Resource1.Restore_Window;
+            label7.Image = GT3RS.Resource1.Restore_Window;
             label7.Location = new Point(448, 11);
             label7.Name = "label7";
             label7.Size = new Size(32, 28);

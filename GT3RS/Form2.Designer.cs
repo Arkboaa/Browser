@@ -124,7 +124,7 @@
             // pictureBox2
             // 
             pictureBox2.Anchor = AnchorStyles.None;
-            pictureBox2.BackgroundImage = Resource1.Profile;
+            pictureBox2.BackgroundImage = GT3RS.Resource1.Profile;
             pictureBox2.BackgroundImageLayout = ImageLayout.Center;
             pictureBox2.Location = new Point(87, 161);
             pictureBox2.Name = "pictureBox2";

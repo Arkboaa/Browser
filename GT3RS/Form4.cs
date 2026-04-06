@@ -26,18 +26,16 @@ namespace WinFormsApp1
         {
             if (webView21 != null)
             {
-                // WebView2 ortamını başlat
+                
                 if (webView21.CoreWebView2 == null)
                     await webView21.EnsureCoreWebView2Async();
 
-                // EasyList’i güncelle ve yükle
+                
                 await UpdateEasyListAsync();
                 LoadEasyList();
 
-                // AdBlock mantığını ekle
                 AddEasyListAdBlock();
 
-                // Başlangıç sayfası
                 webView21.Source = new Uri("https://www.google.com/");
             }
         }
@@ -134,10 +132,6 @@ namespace WinFormsApp1
             return false;
         }
 
-        // -------------------------------------------------------------------
-        // BU KISIMDAN SONRASI SENİN ORİJİNAL KODUN, HİÇ DOKUNULMADI
-        // -------------------------------------------------------------------
-
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
@@ -219,7 +213,7 @@ namespace WinFormsApp1
 
         private void dizigomToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            webView21.Source = new Uri("https://www.dizigom101.com/");
+            webView21.Source = new Uri("https://www.dizigom102.com/");
         }
 
         private void trendyolGoToolStripMenuItem_Click(object sender, EventArgs e)

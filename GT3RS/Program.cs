@@ -15,7 +15,7 @@ namespace WinFormsApp1
             ApplicationConfiguration.Initialize();
             using (var splash = new Form3())
             {
-                splash.ShowDialog(); // Form3 kapanana kadar burasý bloklanýr
+                splash.ShowDialog(); 
             }
             Application.Run(new Form4());
             

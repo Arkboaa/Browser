@@ -43,7 +43,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            BackgroundImage = Resource1.Porsche2;
+            BackgroundImage = GT3RS.Resource1.Porsche2;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(576, 576);
             DoubleBuffered = true;

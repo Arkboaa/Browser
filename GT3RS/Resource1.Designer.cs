@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinFormsApp1 {
+namespace GT3RS {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WinFormsApp1 {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinFormsApp1.Resource1", typeof(Resource1).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GT3RS.Resource1", typeof(Resource1).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -246,16 +246,6 @@ namespace WinFormsApp1 {
         internal static System.Drawing.Bitmap T_Lowercase {
             get {
                 object obj = ResourceManager.GetObject("T Lowercase", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap Technology {
-            get {
-                object obj = ResourceManager.GetObject("Technology", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
