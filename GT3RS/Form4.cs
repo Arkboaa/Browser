@@ -26,11 +26,11 @@ namespace GT3RS
         {
             if (webView21 != null)
             {
-                
+
                 if (webView21.CoreWebView2 == null)
                     await webView21.EnsureCoreWebView2Async();
 
-                
+
                 await UpdateEasyListAsync();
                 LoadEasyList();
 
@@ -179,11 +179,6 @@ namespace GT3RS
             Form1 form = new Form1();
             form.Show();
             this.Dispose();
-        }
-
-        private void uygulamayıKapatToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
 
         private void küçültToolStripMenuItem_Click(object sender, EventArgs e)
@@ -346,6 +341,11 @@ namespace GT3RS
 
             textBox1.Focus();
             textBox1.Select(startIndex, length);
+        }
+
+        private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
