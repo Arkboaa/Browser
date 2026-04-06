@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*' # v1.3, v1.4 gibi tag oluşturduğunda çalışır
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
