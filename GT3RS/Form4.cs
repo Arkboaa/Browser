@@ -132,12 +132,7 @@ namespace GT3RS
             return false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form1 form1 = new Form1();
-            form1.Show();
-            this.Dispose();
-        }
+       
 
         private void Form4_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -174,13 +169,7 @@ namespace GT3RS
             webView21.Source = new Uri("https://www.amazon.com.tr/");
         }
 
-        private void hesaptanÇıkışYapToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form1 form = new Form1();
-            form.Show();
-            this.Dispose();
-        }
-
+        
         private void küçültToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;
